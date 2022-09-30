@@ -1,22 +1,59 @@
 @charset "UTF-8";
 
 /* 
-Paleta de cores
-Verde: #49a09d
-Lilás: #5f2c82
+Common Responsive Breakpoints
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.
 */
 
 /* Versão para tablet */
 @media screen and (min-width:768px) and (max-width:992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
     section#login {
-        width: 90vw;
+        width: 80vw;
     }
 
     section#login > div#imagem {
         float: left;
+        width: 30%;
+        height: 100%;
     }
 
     section#login > div#formulario {
         float: right;
+        width: 70%;
+    }
+}
+
+/* Versão para PC/TV */
+@media screen and (min-width:992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
     }
 }
