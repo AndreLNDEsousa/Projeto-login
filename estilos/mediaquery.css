@@ -56,4 +56,12 @@ High-res laptop or desktop: 1920 x 1080.
         float: left;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
 }
