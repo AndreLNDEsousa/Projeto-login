@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* 
+Paleta de cores
+Verde: #49a09d
+Lilás: #5f2c82
+*/
+/* Versão para tablet */
+@media  and (min-width:768px) and (max-width:992px) {
+section#login {
+    width: 90vw;
+}
+    
+}
