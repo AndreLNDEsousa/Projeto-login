@@ -6,9 +6,16 @@ Verde: #49a09d
 Lilás: #5f2c82
 */
 /* Versão para tablet */
-@media  and (min-width:768px) and (max-width:992px) {
-section#login {
-    width: 90vw;
-}
-    
+@media and (min-width:768px) and (max-width:992px) {
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+    }
+
+    section#login > div#formulario {
+        float: right;
+    }
 }
