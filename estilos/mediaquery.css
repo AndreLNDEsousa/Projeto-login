@@ -21,6 +21,7 @@ High-res laptop or desktop: 1920 x 1080.
     
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -44,6 +45,7 @@ High-res laptop or desktop: 1920 x 1080.
 
     section#login {
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -62,6 +64,7 @@ High-res laptop or desktop: 1920 x 1080.
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
